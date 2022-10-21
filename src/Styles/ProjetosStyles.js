@@ -9,6 +9,10 @@ padding-top: 20px;
 `
 
 export const Box = styled.div`
-width: 60%;
+width: 50%;
+@media(max-width:400px){
+        display:flex;
+        flex-direction:column;
+    }
 `
 

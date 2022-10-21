@@ -4,7 +4,7 @@ export const Box = styled.div`
 display: flex;
 background-color: gray;
 padding-left: 20px;
-@media screen and (max-width:600px){
+@media screen and (max-width:400px){
         flex-direction: column;
         align-items: center;
     }
@@ -14,7 +14,7 @@ img{
     width: 10%;
     padding: 5px;
     
-    @media(max-width:600px){
+    @media(max-width:400px){
         width: 20%;
         padding-top: 5px;
     }
