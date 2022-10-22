@@ -6,7 +6,7 @@ export default function Home() {
     return (
       <section>
         <S.Home>
-        <img src={Perfil}/>
+        <img src={Perfil} alt="perfil"/>
 
       <div>
          <h2>LUCIANA LIMA</h2>
